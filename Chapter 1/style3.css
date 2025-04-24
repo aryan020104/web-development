@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #a22525;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    padding: 3rem; 
+    background-color: #1d3793; 
+    color: #cc1e1e;
+    font-family: 'Arial', sans-serif; 
+}
+header h1 {
+    font-size: 2.8rem; 
+    margin-bottom: 1rem; 
+    text-transform: uppercase; 
+    letter-spacing: 0.1em; 
+}
+
+header p {
+    font-size: 1.3rem; 
+    margin-bottom: 1rem;
+    color: #d61111; 
+}
+
+.button {
+    font-size: 1.00rem;
+    color: #ffffff; 
+    margin-bottom: 0.75rem; 
+    background-color: #eb0808f3; 
+    padding: 0.5rem 1rem; 
+    border-radius: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    letter-spacing: 0.05em; 
+    border: 2px solid #003366;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.25rem; 
+    color: #3a3d30; 
+    margin-bottom: 1rem;
+    text-align: center; 
+    font-family: 'Georgia', serif; 
+    font-weight: 700; 
+    line-height: 1.3; 
+    background-color: rgba(0, 0, 0, 0.1); 
+    padding: 0.5rem 1rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-transform: capitalize; 
+    letter-spacing: 0.05em; 
+}
+
+
+.feature {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+.feature h3{
+font-size: 1.75rem;
+    color: #ffffff; 
+    margin-bottom: 0.75rem; 
+    background-color: #060606f3; 
+    padding: 0.5rem 1rem; 
+    border-radius: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    letter-spacing: 0.05em; 
+    border: 2px solid #003366;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 0.9rem;
+}
+
+  
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+
+    .feature {
+        margin: 1rem 0;
+    }
+
+    .feature h3 {
+        font-size: 1.2rem;
+    }
+}

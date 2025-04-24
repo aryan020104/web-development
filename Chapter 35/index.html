@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* .box:first-child{
+            background-color: aquamarine;
+        } */
+
+        /* .box::first-line{
+            color: brown;
+        } */
+
+        /* .boxes *{
+        color: blue;
+        border: 2px solid aqua;
+        } */
+        .box :nth-child(even) {
+            color: yellow;
+
+        }
+        .boxes::before{
+            content:  "aryan is good";
+            color: black;
+        }
+        .boxes::after{
+            content: "Aryan is very good";
+            color: black;
+        }
+        ::selection{
+            background-color: black;
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">I am a box 1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+    </div>
+</body>
+
+</html>
